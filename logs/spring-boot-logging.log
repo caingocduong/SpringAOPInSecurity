@@ -1,0 +1,55 @@
+2017-08-04 17:36:08.681  INFO 30599 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : Starting SpringAopApplicationTests on ED081 with PID 30599 (started by darren in /media/darren/DATA/ProjectWorkspace/SpringAOP/SpringAOP)
+2017-08-04 17:36:08.691  INFO 30599 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : No active profile set, falling back to default profiles: default
+2017-08-04 17:36:08.882  INFO 30599 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@45752059: startup date [Fri Aug 04 17:36:08 ICT 2017]; root of context hierarchy
+2017-08-04 17:36:10.661  INFO 30599 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : Started SpringAopApplicationTests in 3.562 seconds (JVM running for 6.257)
+2017-08-04 17:36:10.957  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:36:10.963  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForAdmin]]
+2017-08-04 17:36:10.983  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[ADM])]
+2017-08-04 17:36:10.987  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:36:10.988  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Current user has requied premission for creating a component
+2017-08-04 17:36:11.006  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:36:11.008  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForAdminAndGuest]]
+2017-08-04 17:36:11.017  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[ADM, GST])]
+2017-08-04 17:36:11.023  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:36:11.024  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Current user has requied premission for creating a component
+2017-08-04 17:36:11.028  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:36:11.030  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForGuest]]
+2017-08-04 17:36:11.032  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[GST])]
+2017-08-04 17:36:11.034  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:36:11.035  INFO 30599 --- [main] c.e.interceptor.SecurityInterceptor      : Current user doesn't have permission to have this component created.
+2017-08-04 17:36:11.098  INFO 30599 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@45752059: startup date [Fri Aug 04 17:36:08 ICT 2017]; root of context hierarchy
+2017-08-04 17:39:41.775  INFO 30710 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : Starting SpringAopApplicationTests on ED081 with PID 30710 (started by darren in /media/darren/DATA/ProjectWorkspace/SpringAOP/SpringAOP)
+2017-08-04 17:39:41.783  INFO 30710 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : No active profile set, falling back to default profiles: default
+2017-08-04 17:39:41.990  INFO 30710 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@45752059: startup date [Fri Aug 04 17:39:41 ICT 2017]; root of context hierarchy
+2017-08-04 17:39:43.989  INFO 30710 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : Started SpringAopApplicationTests in 3.782 seconds (JVM running for 6.325)
+2017-08-04 17:39:44.275  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:39:44.275  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForAdmin]]
+2017-08-04 17:39:44.291  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[ADM])]
+2017-08-04 17:39:44.297  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:39:44.298  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Current user has requied premission for creating a component
+2017-08-04 17:39:44.303  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:39:44.305  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForAdminAndGuest]]
+2017-08-04 17:39:44.310  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[ADM, GST])]
+2017-08-04 17:39:44.320  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:39:44.324  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Current user has requied premission for creating a component
+2017-08-04 17:39:44.330  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:39:44.330  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForWriter]]
+2017-08-04 17:39:44.334  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[WRT])]
+2017-08-04 17:39:44.334  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:39:44.334  INFO 30710 --- [main] c.e.interceptor.SecurityInterceptor      : Current user doesn't have permission to have this component created.
+2017-08-04 17:39:44.416  INFO 30710 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@45752059: startup date [Fri Aug 04 17:39:41 ICT 2017]; root of context hierarchy
+2017-08-04 17:40:20.523  INFO 30747 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : Starting SpringAopApplicationTests on ED081 with PID 30747 (started by darren in /media/darren/DATA/ProjectWorkspace/SpringAOP/SpringAOP)
+2017-08-04 17:40:20.531  INFO 30747 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : No active profile set, falling back to default profiles: default
+2017-08-04 17:40:20.770  INFO 30747 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@45752059: startup date [Fri Aug 04 17:40:20 ICT 2017]; root of context hierarchy
+2017-08-04 17:40:23.578  INFO 30747 --- [main] c.e.SpringAOP.SpringAopApplicationTests  : Started SpringAopApplicationTests in 4.97 seconds (JVM running for 7.531)
+2017-08-04 17:40:23.894  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:40:23.899  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForAdmin]]
+2017-08-04 17:40:23.925  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[ADM])]
+2017-08-04 17:40:23.926  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:40:23.928  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Current user has requied premission for creating a component
+2017-08-04 17:40:23.936  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Intercepting creation of a component
+2017-08-04 17:40:23.940  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Argument's class - [[class com.example.ui.ComponentsForAdminAndGuest]]
+2017-08-04 17:40:23.951  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Annotation present - [@com.example.annotations.SecurityAnnotation(allowedRole=[ADM, GST])]
+2017-08-04 17:40:23.952  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Security annotation is present so checking if the user can use it.
+2017-08-04 17:40:23.952  INFO 30747 --- [main] c.e.interceptor.SecurityInterceptor      : Current user has requied premission for creating a component
+2017-08-04 17:40:24.004  INFO 30747 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@45752059: startup date [Fri Aug 04 17:40:20 ICT 2017]; root of context hierarchy
